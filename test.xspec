@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec" stylesheet="test_stylesheet.xsl">
+	<x:param name="workRecordTitleOriginalAKAType">OriginalTitle</x:param>
+	<x:param name="workRecordTitleAKAType">German AKA title</x:param>
+	<x:scenario label="Programs">
+		<x:scenario label="Episodes">
+			<x:context href="sacem.xml" select="(//ES_BMTXEVENT[ends-with((.//@p_product_title)[1], 'Friends S1 Ep1')])[1]" mode="title1"/>
+			<x:expect test="normalize-space() = '[SO] Friends S1'"/>
+		</x:scenario>
+	</x:scenario>
+</x:description>

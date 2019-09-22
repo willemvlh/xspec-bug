@@ -1,0 +1,214 @@
+<ES_BMTXEVENT>
+	<startSMPTEDateTimePoint>
+		<ESP_SMPTEDATETIMEPOINT>
+			<calendarDate>
+				<ESP_DATE date="2019-12-02"/>
+			</calendarDate>
+			<calendarTime>
+				<ESP_SMPTETIME time="06:00:00.00"/>
+			</calendarTime>
+		</ESP_SMPTEDATETIMEPOINT>
+	</startSMPTEDateTimePoint>
+	<txortxeventproduct>
+		<ES_PRODUCT p_product_title="[Broadcasting Title] Friends S1 Ep1" p_episode_internalepisodenumber="1" signLanguage="false">
+			<localTitles>
+				<ES_PRODUCTTITLE pt_title="O Frineds S1 Ep1" pt_isbroadcasttitle="false">
+					<pt_type>
+						<ESP_PRODUCTTITLETYPE name="OriginalTitle">
+							<popupLookups>
+								<POPUPLOOKUP interface="Copyrights - SACEM" attribute="Title type" translation1="OriginalTitle" translation2=""
+									translation3="" translation4="" translation5="" translation6="" translation7="" translation8="" translation9=""
+									translation10="" translation11="" translation12="" translation13="" translation14="" translation15=""/>
+							</popupLookups>
+						</ESP_PRODUCTTITLETYPE>
+					</pt_type>
+				</ES_PRODUCTTITLE>
+				<ES_PRODUCTTITLE pt_title="AKA Friends S1 Ep1" pt_isbroadcasttitle="false">
+					<pt_type>
+						<ESP_PRODUCTTITLETYPE name="German AKA title">
+							<popupLookups>
+								<POPUPLOOKUP interface="Copyrights - SACEM" attribute="Title type" translation1="AKA" translation2=""
+									translation3="" translation4="" translation5="" translation6="" translation7="" translation8="" translation9=""
+									translation10="" translation11="" translation12="" translation13="" translation14="" translation15=""/>
+							</popupLookups>
+						</ESP_PRODUCTTITLETYPE>
+					</pt_type>
+				</ES_PRODUCTTITLE>
+				<ES_PRODUCTTITLE pt_title="[EF] Les amis S1 Ep1" pt_isbroadcasttitle="false">
+					<pt_type>
+						<ESP_PRODUCTTITLETYPE name="French">
+							<popupLookups>
+								<POPUPLOOKUP interface="Copyrights - SACEM" attribute="Title type" translation1="French" translation2=""
+									translation3="" translation4="" translation5="" translation6="" translation7="" translation8="" translation9=""
+									translation10="" translation11="" translation12="" translation13="" translation14="" translation15=""/>
+							</popupLookups>
+						</ESP_PRODUCTTITLETYPE>
+					</pt_type>
+				</ES_PRODUCTTITLE>
+				<ES_PRODUCTTITLE pt_title="Friends S1 Ep1" pt_isbroadcasttitle="false">
+					<pt_type>
+						<ESP_PRODUCTTITLETYPE name="English">
+							<popupLookups>
+								<POPUPLOOKUP interface="Copyrights - SACEM" attribute="Title type" translation1="English" translation2=""
+									translation3="" translation4="" translation5="" translation6="" translation7="" translation8="" translation9=""
+									translation10="" translation11="" translation12="" translation13="" translation14="" translation15=""/>
+							</popupLookups>
+						</ESP_PRODUCTTITLETYPE>
+					</pt_type>
+				</ES_PRODUCTTITLE>
+			</localTitles>
+			<type>
+				<ESP_PRODUCTTYPE name="Episode" predefined="Episode">
+					<popupLookups/>
+				</ESP_PRODUCTTYPE>
+			</type>
+			<p_product_duration>
+				<ESP_TIMEDURATION durationinmilliseconds="1200000"/>
+			</p_product_duration>
+			<p_episode_series>
+				<ES_PRODUCT p_product_title="[Broadcasting Title] Friends S1">
+					<localTitles>
+						<ES_PRODUCTTITLE pt_title="[SE] Friends S1">
+							<pt_type>
+								<ESP_PRODUCTTITLETYPE name="English"/>
+							</pt_type>
+						</ES_PRODUCTTITLE>
+						<ES_PRODUCTTITLE pt_title="[SAKA] Freunde S1">
+							<pt_type>
+								<ESP_PRODUCTTITLETYPE name="German AKA title"/>
+							</pt_type>
+						</ES_PRODUCTTITLE>
+						<ES_PRODUCTTITLE pt_title="[SO] Friends S1">
+							<pt_type>
+								<ESP_PRODUCTTITLETYPE name="OriginalTitle"/>
+							</pt_type>
+						</ES_PRODUCTTITLE>
+						<ES_PRODUCTTITLE pt_title="[SF] Les amis S1">
+							<pt_type>
+								<ESP_PRODUCTTITLETYPE name="French"/>
+							</pt_type>
+						</ES_PRODUCTTITLE>
+					</localTitles>
+				</ES_PRODUCT>
+			</p_episode_series>
+			<localCast>
+				<ES_LOCALCASTMEMBER>
+					<function>
+						<ESP_FUNCTION name="Actor/Actress">
+							<popupLookups>
+								<POPUPLOOKUP interface="Copyrights - SACEM" attribute="Function" translation1="Actor/Actress" translation2=""
+									translation3="" translation4="" translation5="" translation6="" translation7="" translation8="" translation9=""
+									translation10="" translation11="" translation12="" translation13="" translation14="" translation15=""/>
+							</popupLookups>
+						</ESP_FUNCTION>
+					</function>
+					<person>
+						<ES_PERSON pe_firstname="Demi" pe_name="More"/>
+					</person>
+					<castType>
+						<ESP_LOCALCASTTYPE name="English"/>
+					</castType>
+				</ES_LOCALCASTMEMBER>
+				<ES_LOCALCASTMEMBER>
+					<function>
+						<ESP_FUNCTION name="Actor/Actress">
+							<popupLookups>
+								<POPUPLOOKUP interface="Copyrights - SACEM" attribute="Function" translation1="Actor/Actress" translation2=""
+									translation3="" translation4="" translation5="" translation6="" translation7="" translation8="" translation9=""
+									translation10="" translation11="" translation12="" translation13="" translation14="" translation15=""/>
+							</popupLookups>
+						</ESP_FUNCTION>
+					</function>
+					<person>
+						<ES_PERSON pe_firstname="Jennifer" pe_name="Anniston"/>
+					</person>
+					<castType>
+						<ESP_LOCALCASTTYPE name="French"/>
+					</castType>
+				</ES_LOCALCASTMEMBER>
+				<ES_LOCALCASTMEMBER>
+					<function>
+						<ESP_FUNCTION name="Actor/Actress">
+							<popupLookups>
+								<POPUPLOOKUP interface="Copyrights - SACEM" attribute="Function" translation1="Actor/Actress" translation2=""
+									translation3="" translation4="" translation5="" translation6="" translation7="" translation8="" translation9=""
+									translation10="" translation11="" translation12="" translation13="" translation14="" translation15=""/>
+							</popupLookups>
+						</ESP_FUNCTION>
+					</function>
+					<person>
+						<ES_PERSON pe_name="Claudia"/>
+					</person>
+					<castType>
+						<ESP_LOCALCASTTYPE name="German"/>
+					</castType>
+				</ES_LOCALCASTMEMBER>
+			</localCast>
+		</ES_PRODUCT>
+	</txortxeventproduct>
+	<linkedAudioComponents>
+		<ES_MM2AUDIOCOMPONENT>
+			<language>
+				<ESP_LANGUAGE name="French">
+					<popupLookups>
+						<POPUPLOOKUP interface="Copyrights - SACEM" attribute="Language" translation1="French" translation2="" translation3=""
+							translation4="" translation5="" translation6="" translation7="" translation8="" translation9="" translation10=""
+							translation11="" translation12="" translation13="" translation14="" translation15=""/>
+					</popupLookups>
+				</ESP_LANGUAGE>
+			</language>
+		</ES_MM2AUDIOCOMPONENT>
+	</linkedAudioComponents>
+	<linkedLocalCopyrightSheets>
+		<ES_COPYRIGHTSHEET>
+			<sheet_materialuses>
+				<ES_COPYRIGHTMATERIALUSE>
+					<use_material>
+						<ES_MATERIAL m_title="Mona Lisa">
+							<m_type>
+								<ESP_MATERIALTYPE name="Photo" predefined="PSIStills"/>
+							</m_type>
+							<castParticipants/>
+						</ES_MATERIAL>
+					</use_material>
+					<use_duration>
+						<ESP_TIMEDURATION duration="00:10.000" durationinmilliseconds="10000" time="00:00:10.000"/>
+					</use_duration>
+				</ES_COPYRIGHTMATERIALUSE>
+				<ES_COPYRIGHTMATERIALUSE>
+					<use_material>
+						<ES_MATERIAL isOriginalMusic="false" isPublicDomainWork="false" m_title="Song I&apos;ll be there for you">
+							<m_type>
+								<ESP_MATERIALTYPE name="Music" predefined="PSIMusic"/>
+							</m_type>
+							<castParticipants>
+								<ES_CASTPARTICIPANT>
+									<cm_function>
+										<ESP_FUNCTION name="Actor/Actress">
+											<popupLookups>
+												<POPUPLOOKUP interface="Copyrights - SACEM" attribute="Function" translation1="Actor/Actress"
+													translation2="" translation3="" translation4="" translation5="" translation6="" translation7=""
+													translation8="" translation9="" translation10="" translation11="" translation12="" translation13=""
+													translation14="" translation15=""/>
+											</popupLookups>
+										</ESP_FUNCTION>
+									</cm_function>
+									<cm_person>
+										<ES_PERSON pe_name="Anniston" pe_firstname="Jennifer"/>
+									</cm_person>
+								</ES_CASTPARTICIPANT>
+							</castParticipants>
+						</ES_MATERIAL>
+					</use_material>
+					<use_duration>
+						<ESP_TIMEDURATION duration="00:30.000" durationinmilliseconds="30000" time="00:00:30.000"/>
+					</use_duration>
+				</ES_COPYRIGHTMATERIALUSE>
+			</sheet_materialuses>
+		</ES_COPYRIGHTSHEET>
+	</linkedLocalCopyrightSheets>
+	<txEventMediaAsset>
+		<ES_MM2MEDIAASSET label="EMEA_001193"/>
+	</txEventMediaAsset>
+	<linkedSubtitlingComponents/>
+</ES_BMTXEVENT>
